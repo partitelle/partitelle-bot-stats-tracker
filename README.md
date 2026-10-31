@@ -48,3 +48,9 @@ The workflow runs daily at 10:00 CEST via `.github/workflows/daily-stats.yml`. Y
 ## Google Sheets Setup
 
 See the dedicated section in the README or ask Copilot for a step-by-step guide.
+
+## Notes for contributors
+
+- The `active_match` view belongs to [partitelle-bot](https://github.com/partitelle/partitelle-bot): coordinate schema changes there.
+- There are no tests: when changing behavior, run `python main.py` against a non-prod schema (`PB_DB_SCHEMA`) and say in the PR how you checked it.
+- The daily workflow is currently disabled; enabling it or changing secrets needs a maintainer's OK.
