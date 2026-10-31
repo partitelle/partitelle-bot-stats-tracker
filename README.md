@@ -1,6 +1,6 @@
 # Partitelle Bot Stats Tracker
 
-Cron job that collects statistics from the [partitelle-bot](https://github.com/iamgiolaga/partitelle-bot) database and writes them to Google Sheets.
+Cron job that collects statistics from the [partitelle-bot](https://github.com/partitelle/partitelle-bot) database and writes them to Google Sheets.
 
 ## What it does
 
