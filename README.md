@@ -7,6 +7,10 @@ Cron job that collects statistics from the [partitelle-bot](https://github.com/p
 - Counts **active matches** (rows of the `active_match` view, resolved through `PB_DB_SCHEMA`)
 - Appends a row with a timestamp to Google Sheets on each run
 
+## Privacy
+
+This tracker reads only a count of active matches, with no personal data. The privacy notice for partitelle, including the bot whose database it reads, is at https://partitelle.com/privacy.
+
 ## Environment Variables
 
 ### Database (same as partitelle-bot)
